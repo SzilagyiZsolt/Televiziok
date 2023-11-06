@@ -8,7 +8,7 @@
         echo 'rögítve';
     }
     echo '<p>Valóban szeretné a '.$tv['tv_neve'].' nevű tvt megvásárolni?</p>';
-    if ($db->setVasarlasTV($tvid, $_SESSION['user']['userid'])) 
+    if ($db->Vasarlas($tvid, $_SESSION['user']['userid'])) 
     {
         
     }
